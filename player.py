@@ -24,5 +24,6 @@ good_states = ["State.Playing", "State.NothingSpecial", "State.Opening"]
 while str(player.get_state()) in good_states:
     print('The video is playing. Current state = {}'.format(player.get_state()))
 
+    
 print('The video is not playing. Current state = {}'.format(player.get_state()))
 player.stop()
